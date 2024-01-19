@@ -1,3 +1,103 @@
-<h1>Herat</h1>
-<br><br>
-Herat este o aplicație inovatoare destinată monitorizării gradului de încărcare în camerele de gardă ale spitalelor din București. Această soluție digitală oferă acces imediat la informații actualizate, esențiale pentru planificarea eficientă a vizitelor medicale urgente.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Herat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            overflow: hidden;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Herat</span> App</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="home">
+            <h1>Welcome to Herat - the Hospitals and Emergency Rooms Availability Tracking App</h1>
+            <p>Our app is designed to help you see the number of patients waiting in queues at various emergency rooms. By providing this information, the app aims to assist you in making informed decisions about where to seek immediate medical care.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Our App</h2>
+            <p>The Heratis a crowd-sourced platform where users can both view and update the waiting times at emergency rooms. This community-driven approach ensures that the data is as current and accurate as possible, relying on the contributions of users like you.</p>
+        </section>
+
+        <section id="features">
+            <h2>Key Features</h2>
+            <ul>
+                <li>View real-time waiting times at various emergency rooms, updated by users.</li>
+                <li>Contribute by updating the queue numbers, but only if you are in the vicinity of the hospital.</li>
+                <li>Hospitals without updates in the last 24 hours are highlighted differently for informed decisions.</li>
+                <li>Time-stamped updates allow you to know how recent the information is.</li>
+                <li>Designed to be a helpful tool for non-critical decisions. Always call emergency services in critical situations.</li>
+                <li>No limits on the number of updates you can provide, fostering a dynamic and up-to-date platform.</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
